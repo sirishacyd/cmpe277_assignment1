@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="86dp"
         android:gravity="center_horizontal"
-        android:text="Current Activity"
+        android:text="Activity A"
         android:textSize="40sp" />
 
 
@@ -31,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="68dp"
         android:onClick="switchActivity"
-        android:text="Switch to another activity" />
+        android:text="Switch to Activity B" />
 
     <TextView
         android:id="@+id/textView2"

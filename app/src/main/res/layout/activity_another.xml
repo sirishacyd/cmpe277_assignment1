@@ -14,7 +14,7 @@
     <TextView
         android:gravity="center_horizontal"
         android:layout_width="match_parent"
-        android:text="Second Activity Lifecycle"
+        android:text="Activity B"
         android:textSize="38sp"
         android:layout_height="wrap_content"
         />
@@ -22,7 +22,7 @@
 
     <Button
         android:onClick="close"
-        android:text="Turn off Activity"
+        android:text="Turn off Activity B"
         android:layout_width="match_parent"
         android:layout_height="68dp"
         />
