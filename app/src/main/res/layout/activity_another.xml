@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_another"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="12dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="12dp"
+    tools:context="com.example.cmpe277_assignment1.AnotherActivity">
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:text="Second Activity Lifecycle"
+        android:textSize="38sp"
+        android:layout_height="wrap_content"
+        />
+
+
+    <Button
+        android:onClick="close"
+        android:text="Turn off Activity"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        />
+
+
+</LinearLayout>
